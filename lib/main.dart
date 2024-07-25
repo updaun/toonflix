@@ -80,6 +80,26 @@ class App extends StatelessWidget {
                     textColor: Colors.white,
                   ),
                 ],
+              ),
+              SizedBox(
+                height: 100,
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: [
+                  Text('Wallets',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 36,
+                        fontWeight: FontWeight.w600,
+                      )),
+                  Text('View All',
+                      style: TextStyle(
+                        color: Color.fromRGBO(255, 255, 255, 0.8),
+                        fontSize: 18,
+                      )),
+                ],
               )
             ],
           ),
